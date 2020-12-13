@@ -1,0 +1,9 @@
+Lab ID: 42	District: 2 - BELAGAVI
+capacity: 892 = 1000-108
+total samples collected = 992.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+2	BELAGAVI	313.0
+14	GADAG	679.0

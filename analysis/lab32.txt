@@ -1,0 +1,9 @@
+Lab ID: 32	District: 5 - BENGALURU URBAN
+capacity: 306 = 350-44
+total samples collected = 406.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	100.0
+25	SHIMOGA	306.0

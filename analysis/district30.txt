@@ -1,0 +1,4 @@
+District ID: 30	 Name: YADGIRI
+Cases: 803	 Backlog: 803
+LabID	Samples	DistID	DistName
+-----------------------------------------

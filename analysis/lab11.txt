@@ -1,0 +1,9 @@
+Lab ID: 11	District: 13 - DHARWAD
+capacity: 1257 = 1500-243
+total samples collected = 1357.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+12	DAVANAGERE	1257.0
+13	DHARWAD	100.0

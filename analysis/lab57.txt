@@ -1,0 +1,8 @@
+Lab ID: 57	District: 27 - UDUPI
+capacity: 56 = 180-124
+total samples collected = 56.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	56.0

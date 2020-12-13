@@ -1,0 +1,8 @@
+Lab ID: 69	District: 18 - KODAGU
+capacity: 983 = 1000-17
+total samples collected = 983.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	983.0

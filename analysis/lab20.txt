@@ -1,0 +1,9 @@
+Lab ID: 20	District: 14 - GADAG
+capacity: 711 = 750-39
+total samples collected = 811.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	711.0
+14	GADAG	100.0

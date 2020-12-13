@@ -1,0 +1,11 @@
+Lab ID: 82	District: 5 - BENGALURU URBAN
+capacity: 1175 = 1250-75
+total samples collected = 1275.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	100.0
+6	BIDAR	230.0
+8	CHIKKABALLAPUR	83.0
+16	HAVERI	862.0

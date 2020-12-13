@@ -1,0 +1,7 @@
+District ID: 7	 Name: CHAMARAJANAGARA
+Cases: 752	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+13	13.0	13	DHARWAD
+56	575.0	30	YADGIRI
+73	164.0	5	BENGALURU URBAN

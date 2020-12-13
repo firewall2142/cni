@@ -1,0 +1,7 @@
+District ID: 24	 Name: RAMANAGARA
+Cases: 778	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+13	149.0	13	DHARWAD
+61	111.0	7	CHAMARAJANAGARA
+79	518.0	19	KOLAR

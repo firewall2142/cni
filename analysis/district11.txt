@@ -1,0 +1,7 @@
+District ID: 11	 Name: DAKSHIN KANNADA
+Cases: 2438	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+25	833.0	5	BENGALURU URBAN
+71	698.0	17	KALABURGI
+83	907.0	5	BENGALURU URBAN

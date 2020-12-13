@@ -1,0 +1,4 @@
+District ID: 28	 Name: UTTARA KANNADA 
+Cases: 1404	 Backlog: 1404
+LabID	Samples	DistID	DistName
+-----------------------------------------

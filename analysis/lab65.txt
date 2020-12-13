@@ -1,0 +1,9 @@
+Lab ID: 65	District: 6 - BIDAR
+capacity: 1445 = 3000-1555
+total samples collected = 1545.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+3	BELLARY	1445.0
+6	BIDAR	100.0

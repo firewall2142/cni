@@ -7,7 +7,7 @@ from math import sin, cos, pi, asin, acos, sqrt, atan2
 import sys
 
 outputfolder = 'analysis'
-soln_file = 'output.csv'
+soln_file = sys.argv[1]
 lab_file = f'./test1/lab_test_data.csv'
 district_file = f'./test1/district_test_data.csv'
 

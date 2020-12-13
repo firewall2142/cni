@@ -1,0 +1,5 @@
+District ID: 16	 Name: HAVERI
+Cases: 862	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+82	862.0	5	BENGALURU URBAN

@@ -1,0 +1,11 @@
+District ID: 22	 Name: MYSURU
+Cases: 4036	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+13	1003.0	13	DHARWAD
+26	576.0	5	BENGALURU URBAN
+43	103.0	29	VIJAYAPURA
+45	803.0	1	BAGALKOT
+46	593.0	28	UTTARA KANNADA 
+47	786.0	5	BENGALURU URBAN
+55	172.0	30	YADGIRI

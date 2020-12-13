@@ -1,0 +1,8 @@
+District ID: 1	 Name: BAGALKOT
+Cases: 1139	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+13	85.0	13	DHARWAD
+38	854.0	12	DAVANAGERE
+44	100.0	1	BAGALKOT
+45	100.0	1	BAGALKOT

@@ -1,0 +1,5 @@
+District ID: 15	 Name: HASSAN
+Cases: 2363	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+7	2363.0	17	KALABURGI

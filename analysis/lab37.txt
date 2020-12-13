@@ -1,0 +1,8 @@
+Lab ID: 37	District: 11 - DAKSHIN KANNADA
+capacity: 425 = 1000-575
+total samples collected = 425.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+25	SHIMOGA	425.0

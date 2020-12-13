@@ -1,0 +1,8 @@
+Lab ID: 43	District: 29 - VIJAYAPURA
+capacity: 103 = 180-77
+total samples collected = 103.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+22	MYSURU	103.0

@@ -1,0 +1,7 @@
+District ID: 23	 Name: RAICHUR
+Cases: 880	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+13	115.0	13	DHARWAD
+64	100.0	23	RAICHUR
+84	665.0	21	MANDYA

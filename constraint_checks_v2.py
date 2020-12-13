@@ -2,6 +2,7 @@
 import pandas as pd 
 import numpy as np
 import math
+import sys
 
 #DEBUG_PRINTS = True
 DEBUG_PRINTS = False
@@ -128,7 +129,7 @@ def evaluate(lab_info_filename,district_info_filename,solution_filename):
     return valid_solution
 
 
-print("RESULT =", evaluate('./test1/lab_test_data.csv','./test1/district_test_data.csv','./output.csv'))
+print("RESULT =", evaluate('./test1/lab_test_data.csv','./test1/district_test_data.csv', sys.argv[1]))
 
 # exit()
 

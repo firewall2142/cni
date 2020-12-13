@@ -1,0 +1,6 @@
+District ID: 12	 Name: DAVANAGERE
+Cases: 1415	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+11	1257.0	13	DHARWAD
+13	158.0	13	DHARWAD

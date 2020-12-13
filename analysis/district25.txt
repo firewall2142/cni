@@ -1,0 +1,9 @@
+District ID: 25	 Name: SHIMOGA
+Cases: 2668	 Backlog: 280.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+6	393.0	25	SHIMOGA
+13	317.0	13	DHARWAD
+19	947.0	25	SHIMOGA
+32	306.0	5	BENGALURU URBAN
+37	425.0	11	DAKSHIN KANNADA

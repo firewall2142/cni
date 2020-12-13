@@ -1,0 +1,10 @@
+Lab ID: 7	District: 17 - KALABURGI
+capacity: 2606 = 3000-394
+total samples collected = 2510.0
+Overload = -96.0
+
+DistID	DistName	Samples
+------------------------------------------
+3	BELLARY	47.0
+15	HASSAN	2363.0
+17	KALABURGI	100.0

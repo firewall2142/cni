@@ -1,0 +1,8 @@
+Lab ID: 52	District: 8 - CHIKKABALLAPUR
+capacity: 900 = 1000-100
+total samples collected = 900.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	900.0

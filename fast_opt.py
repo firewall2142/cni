@@ -11,7 +11,7 @@ from pulp.constants import LpStatus
 LAB_FILE      = 'test1/lab_test_data.csv'
 DISTRICT_FILE = 'test1/district_test_data.csv'
 OUTPUT_FILE = 'fast_output.csv'
-PICKLE_FILE = 'fast_output.pickle'
+PICKLE_FILE = 'pickle/fast.pickle'
 M = 100000
 """
 APOPT_SOLVER_OPTIONS = ['minlp_maximum_iterations 500', \
@@ -34,7 +34,7 @@ def parse_inputs():
     
     global lab_data, district_data
     
-    with open(LAB_FILE) as labfp:
+    with open(LAB_FILE, 'r') as labfp:
         for line in labfp.readlines()[1:]:
             s = line.split(',')
             labid, lat, lon  = int(s[1]), float(s[2]), float(s[3])
@@ -45,7 +45,7 @@ def parse_inputs():
                 'is_public': is_pub, 'capacity':cap,
                 'backlog':back }
 
-    with open(DISTRICT_FILE) as distfp:
+    with open(DISTRICT_FILE, 'r') as distfp:
         for line in distfp.readlines()[1:]:
             s = line.split(',')
             distid, name = int(s[1]), s[2]
@@ -142,36 +142,37 @@ if __name__ == '__main__':
     xkj = {} # Ck to Lj
     yij = {} # Di to Lj if district(j) == i
     bi  = {} # Di backlog
+    fikj= {} # flow Di -> Ck -> Lj
 
     for i in district_data.keys():
         # bi[i] = m.Var(lb=0, integer=True)
-        bi[i] = p.LpVariable(f"b_{i}", lowBound=0, cat=p.LpInteger)
+        bi[i] = p.LpVariable(f"b_{i}", lowBound=0)
     
-    # for i in district_data.keys():
-    #     for j in lab_data.keys():
-    #         for k in clusters.keys():
-    #             fikj[(i, k, j)] = p.LpVariable(f'f_{i}_{k}_{j}', lowBound=0, cat=p.LpInteger)
+    for i in district_data.keys():
+        for j in lab_data.keys():
+            for k in clusters.keys():
+                fikj[(i, k, j)] = p.LpVariable(f'f_{i}_{k}_{j}', lowBound=0)
 
     for i in district_data.keys():
         for k in clusters.keys():
             # zik[(i,k)] = m.Var(lb=0, integer=True)
             # tik[(i,k)] = m.Var(lb=0, ub=1, integer=True)
-            zik[(i,k)] = p.LpVariable(f'z_{i}_{k}', lowBound=0, cat=p.LpInteger)
-            # zik[(i,k)] = p.lpSum([fikj[(i,k,j)] for j in lab_data.keys()])
+            # zik[(i,k)] = p.LpVariable(f'z_{i}_{k}', lowBound=0, cat=p.LpInteger)
+            zik[(i,k)] = p.lpSum([fikj[(i,k,j)] for j in lab_data.keys()])
             tik[(i,k)] = p.LpVariable(f't_{i}_{k}', cat=p.LpBinary)
 
     for k in clusters.keys():
         for j in lab_data.keys():
             # xkj[(k,j)] = m.Var(lb=0, integer=True)
-            xkj[(k,j)] = p.LpVariable(f'x_{k}_{j}', lowBound=0, cat=p.LpInteger)
-            # xkj[(k,j)] = p.lpSum([fikj[(i,k,j)] for i in district_data.keys()])
+            # xkj[(k,j)] = p.LpVariable(f'x_{k}_{j}', lowBound=0, cat=p.LpInteger)
+            xkj[(k,j)] = p.lpSum([fikj[(i,k,j)] for i in district_data.keys()])
 
     for i in district_data.keys():
         for j in lab_data.keys():
             if district(j) == i:
                 # Constraint 1,  yij <= 100 for district(j) == i
                 # yij[(i,j)] = m.Var(lb=0, ub=100, integer=True)
-                yij[(i,j)] = p.LpVariable(f'y_{i}_{j}', lowBound=0, upBound=100, cat=p.LpInteger)
+                yij[(i,j)] = p.LpVariable(f'y_{i}_{j}', lowBound=0, upBound=100)
 
     # Constraints 2
     # sum_i zik = sum_j xkj if j in cluster k
@@ -182,8 +183,8 @@ if __name__ == '__main__':
             # m.Equation(
             #     reduce(lambda x1,x2: x1+x2, map(lambda ik: zik[ik], iks), 0) ==\
             #     reduce(lambda x1,x2: x1+x2, map(lambda kj: xkj[kj], kjs), 0) )
-            model += reduce(lambda x1,x2: x1+x2, map(lambda ik: zik[ik], iks), 0) ==\
-                     reduce(lambda x1,x2: x1+x2, map(lambda kj: xkj[kj], kjs), 0)
+            model += (p.lpSum(list(map(lambda ik: zik[ik], iks)) + [0]) ==\
+                        p.lpSum(list(map(lambda kj: xkj[kj], kjs)) + [0]))
             
 
     # Constraint 3
@@ -197,12 +198,9 @@ if __name__ == '__main__':
         #     <= \
         #     (lab_data[j]['capacity'] - lab_data[j]['backlog'])
         # )
-        model += reduce(lambda x1,x2: x1+x2,
-                    map(lambda kj: xkj[kj],
-                                filter(lambda kj: kj[1] == j,
-                                       xkj.keys())), 0) \
-                <= \
-                (lab_data[j]['capacity'] - lab_data[j]['backlog'])
+        kjs = filter(lambda kj: kj[1] == j, xkj.keys())
+        model += (p.lpSum(list(map(lambda kj: xkj[kj], kjs)) + [0]) \
+                    <= (lab_data[j]['capacity'] - lab_data[j]['backlog']))
 
     # Constraint 4
     # sum_j yij + sum_k zik + bi = Si
@@ -268,25 +266,23 @@ if __name__ == '__main__':
     with open(PICKLE_FILE, 'wb') as fp:
         print('writing to', PICKLE_FILE)
         pickle.dump({'yij': yij, 'xkj': xkj, 'zik': zik} , fp)
-    print('\n'*10 + "Part II\n"+'='*30)
-
-    # model2 = p.
+    print("DONE")
 
     # net transfer from Di to Lj is (sum_k fikj) + yij
     
-    # outfp = open(OUTPUT_FILE, 'w')
-    # print('transfer_type,source,destination,samples_transferred', file=outfp)
-    # trans = {}
-    # for i in district_data.keys():
-    #     if p.value(bi[i]) > 0:
-    #         print(f'1,{i},{i},{bi[i]}',file=outfp)
-    #     for j in lab_data.keys():
-    #         trans[(i,j)] = p.value(yij[(i,j)]) if (i,j) in yij.keys() else 0
-    #         for k in clusters.keys():
-    #             trans[(i,j)] += p.value(fikj[(i,k,j)])
-    #         print(f'0,{i},{j},{trans[(i,j)]}',file=outfp)
+    outfp = open(OUTPUT_FILE, 'w')
+    print('transfer_type,source,destination,samples_transferred', file=outfp)
+    trans = {}
+    for i in district_data.keys():
+        if p.value(bi[i]) > 0:
+            print(f'1,{i},{i},{p.value(bi[i])}',file=outfp)
+        for j in lab_data.keys():
+            trans[(i,j)] = p.value(yij[(i,j)]) if (i,j) in yij.keys() else 0
+            for k in clusters.keys():
+                trans[(i,j)] += p.value(fikj[(i,k,j)])
+            print(f'0,{i},{j},{trans[(i,j)]}',file=outfp)
 
-    # for i in district_data.keys():
-    #     for k in clusters.keys():
-    #         if p.value(zik[(i, k)]) != 0 or p.value(tik[(i,k)]) != 0:
-    #             print(f'z_{i}_{k} = {p.value(zik[(i,k)])}\tt_{i}_{k} = {p.value(tik[(i,k)])}')
+    for i in district_data.keys():
+        for k in clusters.keys():
+            if p.value(zik[(i, k)]) != 0 or p.value(tik[(i,k)]) != 0:
+                print(f'z_{i}_{k} = {p.value(zik[(i,k)])}\tt_{i}_{k} = {p.value(tik[(i,k)])}')

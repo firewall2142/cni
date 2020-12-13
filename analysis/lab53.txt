@@ -1,0 +1,9 @@
+Lab ID: 53	District: 20 - KOPPAL
+capacity: 838 = 1500-662
+total samples collected = 938.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	838.0
+20	KOPPAL	100.0

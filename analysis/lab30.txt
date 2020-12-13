@@ -1,0 +1,8 @@
+Lab ID: 30	District: 12 - DAVANAGERE
+capacity: 303 = 750-447
+total samples collected = 303.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	303.0

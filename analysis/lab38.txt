@@ -1,0 +1,8 @@
+Lab ID: 38	District: 12 - DAVANAGERE
+capacity: 854 = 1000-146
+total samples collected = 854.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+1	BAGALKOT	854.0

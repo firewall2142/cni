@@ -1,0 +1,4 @@
+District ID: 27	 Name: UDUPI
+Cases: 1600	 Backlog: 1600
+LabID	Samples	DistID	DistName
+-----------------------------------------

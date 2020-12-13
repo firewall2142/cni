@@ -1,0 +1,4 @@
+District ID: 29	 Name: VIJAYAPURA
+Cases: 1002	 Backlog: 1002
+LabID	Samples	DistID	DistName
+-----------------------------------------

@@ -1,0 +1,4 @@
+District ID: 26	 Name: TUMKUR
+Cases: 2092	 Backlog: 2092
+LabID	Samples	DistID	DistName
+-----------------------------------------

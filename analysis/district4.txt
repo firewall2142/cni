@@ -1,0 +1,9 @@
+District ID: 4	 Name: BENGALURU RURAL
+Cases: 2167	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+31	1492.0	5	BENGALURU URBAN
+40	155.0	5	BENGALURU URBAN
+49	91.0	5	BENGALURU URBAN
+68	9.0	5	BENGALURU URBAN
+70	420.0	5	BENGALURU URBAN

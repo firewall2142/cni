@@ -1,0 +1,8 @@
+Lab ID: 28	District: 11 - DAKSHIN KANNADA
+capacity: 404 = 1000-596
+total samples collected = 404.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	404.0

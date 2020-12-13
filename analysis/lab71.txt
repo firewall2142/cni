@@ -1,0 +1,9 @@
+Lab ID: 71	District: 17 - KALABURGI
+capacity: 698 = 750-52
+total samples collected = 798.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+11	DAKSHIN KANNADA	698.0
+17	KALABURGI	100.0
