@@ -14,15 +14,14 @@ Usage
 ./fast_opt LAB_FILE DISTRICT_FILE OUTPUT_FILE
 """
 
-def cmd_inputs(labfile="test1/lab_test_data.csv", distfile="test1/district_test_data.csv", outfile="fast_output.csv"):
-    return labfile, distfile, outfile
+def cmd_inputs(labfile="test1/lab_test_data.csv", distfile="test1/district_test_data.csv", outfile="fast_output.csv", picklefile=None):
+    return labfile, distfile, outfile, picklefile
 
 
 # set it to -1 for running forever
 TIMEOUT = 240 #seconds
 
-LAB_FILE, DISTRICT_FILE, OUTPUT_FILE = cmd_inputs(*sys.argv[1:])
-PICKLE_FILE = 'fast.pickle'
+LAB_FILE, DISTRICT_FILE, OUTPUT_FILE, PICKLE_FILE= cmd_inputs(*sys.argv[1:])
 
 print(f'LAB_FILE={LAB_FILE}\nDISTRICT_FILE={DISTRICT_FILE}')
 print(f'OUTPUTFILE={OUTPUT_FILE}\nPICKLE_FILE={PICKLE_FILE}')
@@ -269,9 +268,10 @@ if __name__ == '__main__':
     
 
 
-    with open(PICKLE_FILE, 'wb') as fp:
-        print('writing to', PICKLE_FILE)
-        pickle.dump({'yij': yij, 'xkj': xkj, 'zik': zik} , fp)
+    if PICKLE_FILE != None:
+        with open(PICKLE_FILE, 'wb') as fp:
+            print('writing to', PICKLE_FILE)
+            pickle.dump({'yij': yij, 'xkj': xkj, 'zik': zik} , fp)
     print("DONE")
 
     # net transfer from Di to Lj is (sum_k fikj) + yij
