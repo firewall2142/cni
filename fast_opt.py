@@ -18,10 +18,8 @@ def cmd_inputs(labfile="test1/lab_test_data.csv", distfile="test1/district_test_
     return labfile, distfile, outfile
 
 
-
-# LAB_FILE      = 'test1/lab_test_data.csv'
-# DISTRICT_FILE = 'test1/district_test_data.csv'
-# OUTPUT_FILE = 'fast_output.csv'
+# set it to -1 for running forever
+TIMEOUT = 240 #seconds
 
 LAB_FILE, DISTRICT_FILE, OUTPUT_FILE = cmd_inputs(*sys.argv[1:])
 PICKLE_FILE = 'fast.pickle'
@@ -29,8 +27,6 @@ PICKLE_FILE = 'fast.pickle'
 print(f'LAB_FILE={LAB_FILE}\nDISTRICT_FILE={DISTRICT_FILE}')
 print(f'OUTPUTFILE={OUTPUT_FILE}\nPICKLE_FILE={PICKLE_FILE}')
 
-# set it to -1 for running forever
-TIMEOUT = 240 #seconds
 
 M = 100000
 MAXLABDIST = 40
