@@ -1,0 +1,7 @@
+District ID: 16	 Name: HAVERI
+Cases: 862	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+37	425.0	11	DAKSHIN KANNADA
+63	371.0	24	RAMANAGARA
+75	66.0	5	BENGALURU URBAN

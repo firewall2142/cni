@@ -1,0 +1,9 @@
+Lab ID: 79	District: 19 - KOLAR
+capacity: 518 = 1000-482
+total samples collected = 618.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+19	KOLAR	100.0
+29	VIJAYAPURA	518.0

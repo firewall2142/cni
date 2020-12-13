@@ -1,0 +1,6 @@
+District ID: 30	 Name: YADGIRI
+Cases: 803	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+42	187.0	2	BELAGAVI
+83	616.0	5	BENGALURU URBAN

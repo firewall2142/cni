@@ -1,0 +1,10 @@
+District ID: 21	 Name: MANDYA
+Cases: 1859	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+1	3.0	5	BENGALURU URBAN
+6	393.0	25	SHIMOGA
+41	361.0	26	TUMKUR
+49	91.0	5	BENGALURU URBAN
+71	698.0	17	KALABURGI
+78	313.0	12	DAVANAGERE

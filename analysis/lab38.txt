@@ -1,0 +1,9 @@
+Lab ID: 38	District: 12 - DAVANAGERE
+capacity: 854 = 1000-146
+total samples collected = 954.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+12	DAVANAGERE	100.0
+22	MYSURU	854.0

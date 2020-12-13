@@ -1,0 +1,6 @@
+District ID: 7	 Name: CHAMARAJANAGARA
+Cases: 752	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+42	705.0	2	BELAGAVI
+73	47.0	5	BENGALURU URBAN

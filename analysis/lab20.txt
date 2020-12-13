@@ -1,0 +1,8 @@
+Lab ID: 20	District: 14 - GADAG
+capacity: 711 = 750-39
+total samples collected = 711.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+26	TUMKUR	711.0

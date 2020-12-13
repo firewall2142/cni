@@ -1,0 +1,9 @@
+Lab ID: 57	District: 27 - UDUPI
+capacity: 56 = 180-124
+total samples collected = 156.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+22	MYSURU	56.0
+27	UDUPI	100.0

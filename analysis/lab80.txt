@@ -1,0 +1,8 @@
+Lab ID: 80	District: 16 - HAVERI
+capacity: 704 = 1000-296
+total samples collected = 704.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	704.0

@@ -1,0 +1,6 @@
+District ID: 4	 Name: BENGALURU RURAL
+Cases: 2167	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+53	838.0	20	KOPPAL
+77	1329.0	5	BENGALURU URBAN

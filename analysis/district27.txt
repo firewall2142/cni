@@ -1,0 +1,8 @@
+District ID: 27	 Name: UDUPI
+Cases: 1600	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+1	1300.0	5	BENGALURU URBAN
+33	100.0	27	UDUPI
+57	100.0	27	UDUPI
+58	100.0	27	UDUPI

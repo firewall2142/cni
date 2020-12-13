@@ -1,0 +1,8 @@
+Lab ID: 64	District: 23 - RAICHUR
+capacity: 518 = 1000-482
+total samples collected = 518.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+26	TUMKUR	518.0

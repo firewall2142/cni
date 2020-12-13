@@ -1,0 +1,10 @@
+Lab ID: 52	District: 8 - CHIKKABALLAPUR
+capacity: 900 = 1000-100
+total samples collected = 1000.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+8	CHIKKABALLAPUR	100.0
+11	DAKSHIN KANNADA	891.0
+25	SHIMOGA	9.0

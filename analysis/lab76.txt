@@ -1,0 +1,8 @@
+Lab ID: 76	District: 13 - DHARWAD
+capacity: 73 = 180-107
+total samples collected = 73.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	73.0

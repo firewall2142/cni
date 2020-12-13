@@ -1,0 +1,9 @@
+Lab ID: 46	District: 28 - UTTARA KANNADA 
+capacity: 593 = 1000-407
+total samples collected = 593.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+3	BELLARY	456.0
+19	KOLAR	137.0

@@ -1,0 +1,9 @@
+Lab ID: 58	District: 27 - UDUPI
+capacity: 643 = 1000-357
+total samples collected = 743.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+20	KOPPAL	643.0
+27	UDUPI	100.0

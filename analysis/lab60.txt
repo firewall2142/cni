@@ -1,0 +1,9 @@
+Lab ID: 60	District: 5 - BENGALURU URBAN
+capacity: 132 = 180-48
+total samples collected = 232.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	100.0
+26	TUMKUR	132.0

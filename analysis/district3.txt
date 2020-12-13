@@ -1,0 +1,8 @@
+District ID: 3	 Name: BELLARY
+Cases: 1710	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+46	456.0	28	UTTARA KANNADA 
+77	581.0	5	BENGALURU URBAN
+82	172.0	5	BENGALURU URBAN
+83	501.0	5	BENGALURU URBAN

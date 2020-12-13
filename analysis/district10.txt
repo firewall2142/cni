@@ -1,0 +1,5 @@
+District ID: 10	 Name: CHITRADURGA
+Cases: 1003	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+82	1003.0	5	BENGALURU URBAN

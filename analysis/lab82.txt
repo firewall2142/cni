@@ -1,0 +1,10 @@
+Lab ID: 82	District: 5 - BENGALURU URBAN
+capacity: 1175 = 1250-75
+total samples collected = 1275.0
+Overload = 100.0
+
+DistID	DistName	Samples
+------------------------------------------
+3	BELLARY	172.0
+5	BENGALURU URBAN	100.0
+10	CHITRADURGA	1003.0

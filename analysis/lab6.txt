@@ -1,0 +1,8 @@
+Lab ID: 6	District: 25 - SHIMOGA
+capacity: 393 = 1000-607
+total samples collected = 393.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+21	MANDYA	393.0

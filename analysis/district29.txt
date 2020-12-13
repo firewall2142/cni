@@ -1,0 +1,7 @@
+District ID: 29	 Name: VIJAYAPURA
+Cases: 1002	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+3	473.0	5	BENGALURU URBAN
+32	11.0	5	BENGALURU URBAN
+79	518.0	19	KOLAR

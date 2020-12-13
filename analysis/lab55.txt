@@ -1,0 +1,8 @@
+Lab ID: 55	District: 30 - YADGIRI
+capacity: 172 = 180-8
+total samples collected = 172.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+15	HASSAN	172.0

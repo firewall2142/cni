@@ -1,0 +1,11 @@
+Lab ID: 7	District: 17 - KALABURGI
+capacity: 2606 = 3000-394
+total samples collected = 2606.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+1	BAGALKOT	844.0
+20	KOPPAL	329.0
+24	RAMANAGARA	778.0
+25	SHIMOGA	655.0

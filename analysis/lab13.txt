@@ -1,0 +1,9 @@
+Lab ID: 13	District: 13 - DHARWAD
+capacity: 1967 = 2500-533
+total samples collected = 1967.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	562.0
+17	KALABURGI	1405.0

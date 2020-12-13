@@ -1,0 +1,8 @@
+Lab ID: 9	District: 3 - BELLARY
+capacity: 1953 = 2000-47
+total samples collected = 1953.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+5	BENGALURU URBAN	1953.0

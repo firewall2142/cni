@@ -1,0 +1,5 @@
+District ID: 23	 Name: RAICHUR
+Cases: 880	 Backlog: 0.0
+LabID	Samples	DistID	DistName
+-----------------------------------------
+78	880.0	12	DAVANAGERE

@@ -1,0 +1,9 @@
+Lab ID: 41	District: 26 - TUMKUR
+capacity: 939 = 1000-61
+total samples collected = 939.0
+Overload = 0.0
+
+DistID	DistName	Samples
+------------------------------------------
+21	MANDYA	361.0
+22	MYSURU	578.0
