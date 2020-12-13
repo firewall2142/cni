@@ -1,6 +1,0 @@
-District ID: 20	 Name: KOPPAL
-Cases: 972	 Backlog: 0.0
-LabID	Samples	DistID	DistName
------------------------------------------
-7	329.0	17	KALABURGI
-58	643.0	27	UDUPI

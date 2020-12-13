@@ -1,9 +1,0 @@
-Lab ID: 45	District: 1 - BAGALKOT
-capacity: 803 = 1000-197
-total samples collected = 803.0
-Overload = 0.0
-
-DistID	DistName	Samples
-------------------------------------------
-12	DAVANAGERE	24.0
-14	GADAG	779.0

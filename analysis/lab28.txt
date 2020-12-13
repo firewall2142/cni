@@ -1,9 +1,0 @@
-Lab ID: 28	District: 11 - DAKSHIN KANNADA
-capacity: 404 = 1000-596
-total samples collected = 504.0
-Overload = 100.0
-
-DistID	DistName	Samples
-------------------------------------------
-11	DAKSHIN KANNADA	100.0
-25	SHIMOGA	404.0

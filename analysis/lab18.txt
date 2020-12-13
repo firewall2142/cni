@@ -1,8 +1,0 @@
-Lab ID: 18	District: 7 - CHAMARAJANAGARA
-capacity: 728 = 750-22
-total samples collected = 728.0
-Overload = 0.0
-
-DistID	DistName	Samples
-------------------------------------------
-13	DHARWAD	728.0

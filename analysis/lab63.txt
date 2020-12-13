@@ -1,9 +1,0 @@
-Lab ID: 63	District: 24 - RAMANAGARA
-capacity: 580 = 1000-420
-total samples collected = 580.0
-Overload = 0.0
-
-DistID	DistName	Samples
-------------------------------------------
-16	HAVERI	371.0
-26	TUMKUR	209.0

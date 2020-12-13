@@ -174,10 +174,10 @@ if __name__ == '__main__':
                 yij[(i,j)] = p.LpVariable(f'y_{i}_{j}', lowBound=0, upBound=100, cat=p.LpInteger)
 
     # Constraints 2
-    # sum_i zik = sum_j xkj
+    # sum_i zik = sum_j xkj if j in cluster k
     for k in clusters.keys():
         iks = list(filter(lambda ik: ik[1] == k, zik.keys()))
-        kjs = list(filter(lambda kj: kj[0] == k, xkj.keys()))
+        kjs = list(filter(lambda kj: kj[0] == k and j in clusters[k], xkj.keys()))
         if len(iks) > 0 or len(kjs) > 0:
             # m.Equation(
             #     reduce(lambda x1,x2: x1+x2, map(lambda ik: zik[ik], iks), 0) ==\
@@ -275,14 +275,15 @@ if __name__ == '__main__':
     
     outfp = open(OUTPUT_FILE, 'w')
     print('transfer_type,source,destination,samples_transferred', file=outfp)
+    trans = {}
     for i in district_data.keys():
         if p.value(bi[i]) > 0:
             print(f'1,{i},{i},{bi[i]}',file=outfp)
         for j in lab_data.keys():
-            trans = p.value(yij[(i,j)]) if (i,j) in yij.keys() else 0
+            trans[(i,j)] = p.value(yij[(i,j)]) if (i,j) in yij.keys() else 0
             for k in clusters.keys():
-                trans += p.value(fikj[(i,k,j)])
-            print(f'0,{i},{j},{trans}',file=outfp)
+                trans[(i,j)] += p.value(fikj[(i,k,j)])
+            print(f'0,{i},{j},{trans[(i,j)]}',file=outfp)
 
     for i in district_data.keys():
         for k in clusters.keys():

@@ -1,6 +1,0 @@
-District ID: 13	 Name: DHARWAD
-Cases: 1989	 Backlog: 0.0
-LabID	Samples	DistID	DistName
------------------------------------------
-18	728.0	7	CHAMARAJANAGARA
-83	1261.0	5	BENGALURU URBAN

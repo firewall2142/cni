@@ -1,8 +1,0 @@
-Lab ID: 8	District: 5 - BENGALURU URBAN
-capacity: 2356 = 3500-1144
-total samples collected = 2456.0
-Overload = 100.0
-
-DistID	DistName	Samples
-------------------------------------------
-5	BENGALURU URBAN	2456.0

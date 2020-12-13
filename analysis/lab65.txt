@@ -1,8 +1,0 @@
-Lab ID: 65	District: 6 - BIDAR
-capacity: 1445 = 3000-1555
-total samples collected = 1445.0
-Overload = 0.0
-
-DistID	DistName	Samples
-------------------------------------------
-5	BENGALURU URBAN	1445.0

@@ -1,8 +1,0 @@
-Lab ID: 54	District: 9 - CHIKKAMAGALUR
-capacity: 131 = 180-49
-total samples collected = 131.0
-Overload = 0.0
-
-DistID	DistName	Samples
-------------------------------------------
-28	UTTARA KANNADA 	131.0

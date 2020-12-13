@@ -1,8 +1,0 @@
-Lab ID: 84	District: 21 - MANDYA
-capacity: 665 = 1000-335
-total samples collected = 665.0
-Overload = 0.0
-
-DistID	DistName	Samples
-------------------------------------------
-5	BENGALURU URBAN	665.0

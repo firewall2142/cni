@@ -1,7 +1,0 @@
-District ID: 28	 Name: UTTARA KANNADA 
-Cases: 1404	 Backlog: 0.0
-LabID	Samples	DistID	DistName
------------------------------------------
-21	1156.0	5	BENGALURU URBAN
-54	131.0	9	CHIKKAMAGALUR
-73	117.0	5	BENGALURU URBAN

@@ -1,8 +1,0 @@
-Lab ID: 44	District: 1 - BAGALKOT
-capacity: 155 = 180-25
-total samples collected = 155.0
-Overload = 0.0
-
-DistID	DistName	Samples
-------------------------------------------
-19	KOLAR	155.0

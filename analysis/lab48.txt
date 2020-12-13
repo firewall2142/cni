@@ -1,9 +1,0 @@
-Lab ID: 48	District: 2 - BELAGAVI
-capacity: 112 = 180-68
-total samples collected = 212.0
-Overload = 100.0
-
-DistID	DistName	Samples
-------------------------------------------
-2	BELAGAVI	100.0
-22	MYSURU	112.0

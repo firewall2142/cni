@@ -1,6 +1,0 @@
-District ID: 1	 Name: BAGALKOT
-Cases: 1139	 Backlog: 0.0
-LabID	Samples	DistID	DistName
------------------------------------------
-7	844.0	17	KALABURGI
-32	295.0	5	BENGALURU URBAN

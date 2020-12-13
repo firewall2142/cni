@@ -1,5 +1,0 @@
-District ID: 18	 Name: KODAGU
-Cases: 613	 Backlog: 0.0
-LabID	Samples	DistID	DistName
------------------------------------------
-69	613.0	18	KODAGU

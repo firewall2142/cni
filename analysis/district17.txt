@@ -1,6 +1,0 @@
-District ID: 17	 Name: KALABURGI
-Cases: 1471	 Backlog: 0.0
-LabID	Samples	DistID	DistName
------------------------------------------
-13	1405.0	13	DHARWAD
-66	66.0	19	KOLAR

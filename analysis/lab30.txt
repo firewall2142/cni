@@ -1,9 +1,0 @@
-Lab ID: 30	District: 12 - DAVANAGERE
-capacity: 303 = 750-447
-total samples collected = 403.0
-Overload = 100.0
-
-DistID	DistName	Samples
-------------------------------------------
-6	BIDAR	303.0
-12	DAVANAGERE	100.0

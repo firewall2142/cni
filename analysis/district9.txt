@@ -1,5 +1,0 @@
-District ID: 9	 Name: CHIKKAMAGALUR
-Cases: 1471	 Backlog: 0.0
-LabID	Samples	DistID	DistName
------------------------------------------
-33	1471.0	27	UDUPI

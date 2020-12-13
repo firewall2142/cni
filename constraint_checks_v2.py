@@ -33,6 +33,10 @@ def all_district_samples_accounted(df_districts,df_solution):
         caseload = df_districts.loc[district_index,'samples']
         allocated = df_solution[df_solution['source']==district_id]['samples_transferred'].sum()
         valid = valid and (caseload == allocated)
+
+        if caseload != allocated:
+            print(f'accounting fail for district {district_id} :')
+            print(f'caseload: {caseload}\tallocated: {allocated}\n')
     print("all_district_samples_accounted: ", valid)
     return valid
 
@@ -90,8 +94,16 @@ def outside_district_lab_distances(df_labs,df_solution):
             if df_labs[df_labs['id']==lab]['district_id'].values[0] !=district_id:
                 outside_district_transfer_labs.append(lab)
                 outside_district_transfer_lab_locations.append((df_labs[df_labs['id']==lab]['lat'].values[0],df_labs[df_labs['id']==lab]['lon'].values[0]))
+
         valid = valid and labs_within_radius(outside_district_transfer_lab_locations)
-        if(DEBUG_PRINTS) : print("-"*100,"\ndistrict_id: ",district_id, "\n\noutside_district_labs: ",outside_district_transfer_labs,"\n\noutside_district_transfer_lab_locations :",outside_district_transfer_lab_locations)
+
+        print("checking for district: ", district_id)
+        print("outer transfers : ", outside_district_transfer_labs)
+        if labs_within_radius(outside_district_transfer_lab_locations):
+            print("OK")
+        else:
+            print("FAIL!!!!!!!")
+        print('\n')
         
     print("outside_district_lab_distances : ",valid)
     return valid
@@ -118,18 +130,18 @@ def evaluate(lab_info_filename,district_info_filename,solution_filename):
 
 print("RESULT =", evaluate('./test1/lab_test_data.csv','./test1/district_test_data.csv','./output.csv'))
 
-exit()
+# exit()
 
-input_dir = 'test_files/'
-lab_file_prefix = 'lab_test_data_'
-district_file_prefix='district_test_data_'
-solution_file_prefix = 'solution_'
+# input_dir = 'test_files/'
+# lab_file_prefix = 'lab_test_data_'
+# district_file_prefix='district_test_data_'
+# solution_file_prefix = 'solution_'
 
-for count in range(1,6):
-    lab_input_filename=input_dir+lab_file_prefix+ "%03d" % count +".csv"
-    district_input_filename = input_dir+district_file_prefix+ "%03d" % count +".csv"
-    solution_filename = input_dir+solution_file_prefix+ "%03d" % count +".csv"
+# for count in range(1,6):
+#     lab_input_filename=input_dir+lab_file_prefix+ "%03d" % count +".csv"
+#     district_input_filename = input_dir+district_file_prefix+ "%03d" % count +".csv"
+#     solution_filename = input_dir+solution_file_prefix+ "%03d" % count +".csv"
     
 
-    valid_allocation = evaluate(lab_input_filename,district_input_filename,solution_filename)
-    print(solution_filename , ": Constraints Met : ", valid_allocation)
+#     valid_allocation = evaluate(lab_input_filename,district_input_filename,solution_filename)
+#     print(solution_filename , ": Constraints Met : ", valid_allocation)
