@@ -19,7 +19,7 @@ def cmd_inputs(labfile="test1/lab_test_data.csv", distfile="test1/district_test_
 
 
 # set it to -1 for running forever
-TIMEOUT = 420 #seconds
+TIMEOUT = 30*60 #seconds
 
 LAB_FILE, DISTRICT_FILE, OUTPUT_FILE, PICKLE_FILE= cmd_inputs(*sys.argv[1:])
 
@@ -117,7 +117,7 @@ def generate_clusters():
             while k in clusters.keys():
                 k += 1
             clusters[k] = clique
-    print('generated clusters: ', clusters)
+    # print('generated clusters: ', clusters)
     return clusters
 
 def samples(i):
@@ -129,6 +129,22 @@ def labcost(j):
         return 800
     else:
         return 1600
+
+def NTestimate():
+
+    capacity = sum([lab_data[j]['capacity']-lab_data[j]['backlog']
+                        for j in lab_data])
+    avg_cost = sum([labcost(j)*(lab_data[j]['capacity']-lab_data[j]['backlog'])
+                        for j in lab_data])
+    avg_cost /= capacity
+
+    total_samples = sum([district_data[i]['samples'] for i in district_data])
+
+    cost  = avg_cost*min(capacity, total_samples)
+    cost += 8000*max(0, total_samples - capacity)
+
+    return cost
+
 
 def cluster_centre(cluster, cluster_id = None):
     if len(cluster) == 0:
@@ -249,7 +265,7 @@ if __name__ == '__main__':
                            filter(lambda ik: ik[0] == i,
                                   tik.keys())))) <= 1
 
-    print(f'{len(yij):=}\t{len(tik):=}\t{len(xkj):=}\t{len(zik):=}')
+    # print(f'{len(yij):=}\t{len(tik):=}\t{len(xkj):=}\t{len(zik):=}')
     
 
 
@@ -261,18 +277,21 @@ if __name__ == '__main__':
             1000 * p.lpSum(list(map(lambda ik: tik[ik]*haversine(*cluster_centre(clusters[ik[1]], ik[1]), *district_data[ik[0]]['pos']),
                           tik.keys())))
     
+
     if TIMEOUT > 0:
-        model.solve(p.PULP_CBC_CMD(timeLimit=TIMEOUT))
+        print(f"Trying to solve in {TIMEOUT}s....")
+        print("NT estimate ~\t", NTestimate())
+        model.solve(p.PULP_CBC_CMD(msg=0,timeLimit=TIMEOUT))
     else:
         model.solve()
     
+    print("Optimal Obj ~\t", model.objective.value())    
 
 
     if PICKLE_FILE != None:
         with open(PICKLE_FILE, 'wb') as fp:
             print('writing to', PICKLE_FILE)
             pickle.dump({'yij': yij, 'xkj': xkj, 'zik': zik} , fp)
-    print("DONE")
 
     # net transfer from Di to Lj is (sum_k fikj) + yij
     
@@ -295,7 +314,7 @@ if __name__ == '__main__':
 
 
     # debugging
-    for i in district_data.keys():
-        for k in clusters.keys():
-            if p.value(zik[(i, k)]) != 0 or p.value(tik[(i,k)]) != 0:
-                print(f'z_{i}_{k} = {(p.value(zik[(i,k)]))}\tt_{i}_{k} = {p.value(tik[(i,k)])}')
+    # for i in district_data.keys():
+    #     for k in clusters.keys():
+    #         if p.value(zik[(i, k)]) != 0 or p.value(tik[(i,k)]) != 0:
+    #             print(f'z_{i}_{k} = {(p.value(zik[(i,k)]))}\tt_{i}_{k} = {p.value(tik[(i,k)])}')

@@ -4,6 +4,14 @@ import numpy as np
 import math
 import sys
 
+"""
+USAGE
+-----
+./checkcontr LAB DISTRICT SOLN
+
+"""
+
+
 #DEBUG_PRINTS = True
 DEBUG_PRINTS = False
 
@@ -136,8 +144,18 @@ def evaluate(lab_info_filename,district_info_filename,solution_filename):
 
 
 if __name__ == '__main__':
-    # print("RESULT =", evaluate('./test1/lab_test_data.csv','./test1/district_test_data.csv', sys.argv[1]))
+    print("labfile :", sys.argv[1])
+    print("district file:", sys.argv[2])
+    print("solution file:", sys.argv[3])
+    result =  evaluate(sys.argv[1], sys.argv[2], sys.argv[3])
 
+    if result:
+        print("Result: SATISFIED")
+    else:
+        print("Result: FAILED <" + '-'*30)
+
+
+"""
     input_dir = 'test_files'
     lab_file_prefix = 'lab_test_data_'
     district_file_prefix='district_test_data_'
@@ -151,3 +169,4 @@ if __name__ == '__main__':
 
         valid_allocation = evaluate(lab_input_filename,district_input_filename,solution_filename)
         print(solution_filename , ": Constraints Met : ", valid_allocation)
+"""
