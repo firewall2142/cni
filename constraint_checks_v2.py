@@ -138,9 +138,9 @@ def evaluate(lab_info_filename,district_info_filename,solution_filename):
 if __name__ == '__main__':
     # print("RESULT =", evaluate('./test1/lab_test_data.csv','./test1/district_test_data.csv', sys.argv[1]))
 
-    input_dir = 'sample_files_002/'
-    lab_file_prefix = 'lab_sample_data_'
-    district_file_prefix='district_sample_data_'
+    input_dir = 'test_files'
+    lab_file_prefix = 'lab_test_data_'
+    district_file_prefix='district_test_data_'
     solution_file_prefix = 'solution_'
 
     for count in range(1,6):

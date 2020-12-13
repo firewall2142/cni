@@ -19,7 +19,7 @@ def cmd_inputs(labfile="test1/lab_test_data.csv", distfile="test1/district_test_
 
 
 # set it to -1 for running forever
-TIMEOUT = 240 #seconds
+TIMEOUT = 420 #seconds
 
 LAB_FILE, DISTRICT_FILE, OUTPUT_FILE, PICKLE_FILE= cmd_inputs(*sys.argv[1:])
 
