@@ -6,4 +6,4 @@ Overload = 100.0
 DistID	DistName	Samples
 ------------------------------------------
 5	BENGALURU URBAN	100.0
-18	KODAGU	443.0
+22	MYSURU	443.0

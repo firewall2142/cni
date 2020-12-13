@@ -1,8 +1,8 @@
 Lab ID: 62	District: 24 - RAMANAGARA
 capacity: 99 = 180-81
-total samples collected = 99.0
-Overload = 0.0
+total samples collected = 199.0
+Overload = 100.0
 
 DistID	DistName	Samples
 ------------------------------------------
-5	BENGALURU URBAN	99.0
+24	RAMANAGARA	199.0

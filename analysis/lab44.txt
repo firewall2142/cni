@@ -5,5 +5,4 @@ Overload = 100.0
 
 DistID	DistName	Samples
 ------------------------------------------
-1	BAGALKOT	100.0
-13	DHARWAD	155.0
+1	BAGALKOT	255.0

@@ -1,7 +1,7 @@
 District ID: 8	 Name: CHIKKABALLAPUR
-Cases: 1294	 Backlog: 0.0
+Cases: 1294	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-51	76.0	8	CHIKKABALLAPUR
-82	83.0	5	BENGALURU URBAN
-85	1135.0	5	BENGALURU URBAN
+1	25.0	5	BENGALURU URBAN
+51	269.0	8	CHIKKABALLAPUR
+52	1000.0	8	CHIKKABALLAPUR

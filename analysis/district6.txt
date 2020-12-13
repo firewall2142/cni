@@ -1,7 +1,5 @@
 District ID: 6	 Name: BIDAR
-Cases: 545	 Backlog: 0.0
+Cases: 545	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-65	100.0	6	BIDAR
-77	215.0	5	BENGALURU URBAN
-82	230.0	5	BENGALURU URBAN
+65	545.0	6	BIDAR

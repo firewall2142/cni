@@ -1,9 +1,5 @@
 District ID: 3	 Name: BELLARY
-Cases: 1710	 Backlog: 0.0
+Cases: 1710	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-7	47.0	17	KALABURGI
-9	100.0	3	BELLARY
-50	58.0	5	BENGALURU URBAN
-65	1445.0	6	BIDAR
-72	60.0	5	BENGALURU URBAN
+9	1710.0	3	BELLARY

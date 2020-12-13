@@ -5,4 +5,5 @@ Overload = 0.0
 
 DistID	DistName	Samples
 ------------------------------------------
-5	BENGALURU URBAN	728.0
+7	CHAMARAJANAGARA	188.0
+21	MANDYA	540.0

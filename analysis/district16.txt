@@ -1,5 +1,6 @@
 District ID: 16	 Name: HAVERI
-Cases: 862	 Backlog: 0.0
+Cases: 862	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-82	862.0	5	BENGALURU URBAN
+30	158.0	12	DAVANAGERE
+80	704.0	16	HAVERI

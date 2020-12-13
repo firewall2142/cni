@@ -1,9 +1,9 @@
 Lab ID: 33	District: 27 - UDUPI
 capacity: 3040 = 3500-460
-total samples collected = 1812.0
-Overload = -1228.0
+total samples collected = 3040.0
+Overload = 0.0
 
 DistID	DistName	Samples
 ------------------------------------------
-10	CHITRADURGA	940.0
-20	KOPPAL	872.0
+15	HASSAN	2129.0
+27	UDUPI	911.0

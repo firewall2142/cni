@@ -1,6 +1,6 @@
 District ID: 20	 Name: KOPPAL
-Cases: 972	 Backlog: 0.0
+Cases: 972	 Backlog: 2.0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-33	872.0	27	UDUPI
-53	100.0	20	KOPPAL
+20	32.0	14	GADAG
+53	938.0	20	KOPPAL

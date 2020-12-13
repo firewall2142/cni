@@ -1,8 +1,8 @@
 Lab ID: 59	District: 10 - CHITRADURGA
 capacity: 140 = 180-40
-total samples collected = 140.0
-Overload = 0.0
+total samples collected = 226.0
+Overload = 86.0
 
 DistID	DistName	Samples
 ------------------------------------------
-5	BENGALURU URBAN	140.0
+10	CHITRADURGA	226.0

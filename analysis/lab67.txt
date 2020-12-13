@@ -1,9 +1,9 @@
 Lab ID: 67	District: 19 - KOLAR
 capacity: 1075 = 1500-425
-total samples collected = 1175.0
-Overload = 100.0
+total samples collected = 1104.0
+Overload = 29.0
 
 DistID	DistName	Samples
 ------------------------------------------
-5	BENGALURU URBAN	1075.0
-19	KOLAR	100.0
+5	BENGALURU URBAN	876.0
+19	KOLAR	228.0

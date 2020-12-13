@@ -5,4 +5,4 @@ Overload = 0.0
 
 DistID	DistName	Samples
 ------------------------------------------
-5	BENGALURU URBAN	56.0
+15	HASSAN	56.0

@@ -116,6 +116,10 @@ for j in lab_ids:
 for i in dist_ids:
 	distdf = df.loc[(df.transfer_type == 0) & (df.source == i)]
 	backlog = df.loc[(df.transfer_type == 1) &(df.source == i)]
+
+
+	distname = district[i]['name']
+	cases = district[i]['sample']
 	if (len(backlog) == 1):
 		backlog = sum(backlog.samples_transferred)
 	elif (len(backlog) != 0):
@@ -125,9 +129,6 @@ for i in dist_ids:
 	
 	distfp = open(f'{outputfolder}/district{i}.txt', 'w')
 
-	distname = district[i]['name']
-	cases = district[i]['sample']
-	backlog = cases - sum(distdf.samples_transferred)
 	print(f"District ID: {i}\t Name: {distname}", file=distfp)
 	print(f"Cases: {cases}\t Backlog: {backlog}", file=distfp)
 

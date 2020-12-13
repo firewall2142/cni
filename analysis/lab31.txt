@@ -5,5 +5,4 @@ Overload = 100.0
 
 DistID	DistName	Samples
 ------------------------------------------
-4	BENGALURU RURAL	1492.0
-5	BENGALURU URBAN	100.0
+5	BENGALURU URBAN	1592.0

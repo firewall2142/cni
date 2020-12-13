@@ -1,8 +1,8 @@
 Lab ID: 4	District: 22 - MYSURU
 capacity: 850 = 1500-650
-total samples collected = 850.0
-Overload = 0.0
+total samples collected = 950.0
+Overload = 100.0
 
 DistID	DistName	Samples
 ------------------------------------------
-5	BENGALURU URBAN	850.0
+22	MYSURU	950.0

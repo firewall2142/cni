@@ -5,5 +5,4 @@ Overload = 100.0
 
 DistID	DistName	Samples
 ------------------------------------------
-2	BELAGAVI	100.0
-5	BENGALURU URBAN	1691.0
+2	BELAGAVI	1791.0

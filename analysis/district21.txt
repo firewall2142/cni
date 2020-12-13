@@ -1,5 +1,7 @@
 District ID: 21	 Name: MANDYA
-Cases: 1859	 Backlog: 0.0
+Cases: 1859	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-21	1859.0	5	BENGALURU URBAN
+17	554.0	21	MANDYA
+18	540.0	7	CHAMARAJANAGARA
+84	765.0	21	MANDYA

@@ -1,6 +1,5 @@
 District ID: 14	 Name: GADAG
-Cases: 779	 Backlog: 0.0
+Cases: 779	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-20	100.0	14	GADAG
-42	679.0	2	BELAGAVI
+20	779.0	14	GADAG

@@ -5,4 +5,4 @@ Overload = 0.0
 
 DistID	DistName	Samples
 ------------------------------------------
-7	CHAMARAJANAGARA	575.0
+30	YADGIRI	575.0

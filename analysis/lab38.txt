@@ -5,4 +5,4 @@ Overload = 0.0
 
 DistID	DistName	Samples
 ------------------------------------------
-1	BAGALKOT	854.0
+12	DAVANAGERE	854.0

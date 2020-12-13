@@ -1,9 +1,8 @@
 Lab ID: 81	District: 2 - BELAGAVI
 capacity: 13 = 150-137
-total samples collected = 113.0
-Overload = 100.0
+total samples collected = 13.0
+Overload = 0.0
 
 DistID	DistName	Samples
 ------------------------------------------
-2	BELAGAVI	100.0
-19	KOLAR	13.0
+28	UTTARA KANNADA 	13.0

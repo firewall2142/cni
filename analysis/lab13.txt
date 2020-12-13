@@ -1,16 +1,8 @@
 Lab ID: 13	District: 13 - DHARWAD
 capacity: 1967 = 2500-533
-total samples collected = 2067.0
-Overload = 100.0
+total samples collected = 1967.0
+Overload = 0.0
 
 DistID	DistName	Samples
 ------------------------------------------
-1	BAGALKOT	85.0
-7	CHAMARAJANAGARA	13.0
-10	CHITRADURGA	63.0
-12	DAVANAGERE	158.0
-13	DHARWAD	164.0
-22	MYSURU	1003.0
-23	RAICHUR	115.0
-24	RAMANAGARA	149.0
-25	SHIMOGA	317.0
+13	DHARWAD	1967.0

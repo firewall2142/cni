@@ -1,8 +1,6 @@
 District ID: 17	 Name: KALABURGI
-Cases: 1471	 Backlog: 0.0
+Cases: 1471	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-7	100.0	17	KALABURGI
-23	622.0	5	BENGALURU URBAN
-29	649.0	5	BENGALURU URBAN
-71	100.0	17	KALABURGI
+7	571.0	17	KALABURGI
+65	900.0	6	BIDAR

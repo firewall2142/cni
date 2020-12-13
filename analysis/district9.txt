@@ -1,5 +1,6 @@
 District ID: 9	 Name: CHIKKAMAGALUR
-Cases: 1471	 Backlog: 0.0
+Cases: 1471	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-83	1471.0	5	BENGALURU URBAN
+5	1240.0	15	HASSAN
+54	231.0	9	CHIKKAMAGALUR

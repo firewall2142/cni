@@ -5,4 +5,4 @@ Overload = 0.0
 
 DistID	DistName	Samples
 ------------------------------------------
-22	MYSURU	103.0
+29	VIJAYAPURA	103.0

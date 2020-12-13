@@ -1,8 +1,8 @@
 Lab ID: 36	District: 11 - DAKSHIN KANNADA
 capacity: 217 = 360-143
-total samples collected = 217.0
-Overload = 0.0
+total samples collected = 317.0
+Overload = 100.0
 
 DistID	DistName	Samples
 ------------------------------------------
-5	BENGALURU URBAN	217.0
+11	DAKSHIN KANNADA	317.0

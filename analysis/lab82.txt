@@ -5,7 +5,4 @@ Overload = 100.0
 
 DistID	DistName	Samples
 ------------------------------------------
-5	BENGALURU URBAN	100.0
-6	BIDAR	230.0
-8	CHIKKABALLAPUR	83.0
-16	HAVERI	862.0
+5	BENGALURU URBAN	1275.0

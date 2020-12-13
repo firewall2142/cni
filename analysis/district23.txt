@@ -1,7 +1,6 @@
 District ID: 23	 Name: RAICHUR
-Cases: 880	 Backlog: 0.0
+Cases: 880	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-13	115.0	13	DHARWAD
-64	100.0	23	RAICHUR
-84	665.0	21	MANDYA
+9	262.0	3	BELLARY
+64	618.0	23	RAICHUR

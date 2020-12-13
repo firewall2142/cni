@@ -1,6 +1,7 @@
 District ID: 10	 Name: CHITRADURGA
-Cases: 1003	 Backlog: 0.0
+Cases: 1003	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-13	63.0	13	DHARWAD
-33	940.0	27	UDUPI
+30	145.0	12	DAVANAGERE
+59	226.0	10	CHITRADURGA
+78	632.0	12	DAVANAGERE

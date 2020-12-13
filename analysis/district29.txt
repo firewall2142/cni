@@ -1,4 +1,7 @@
 District ID: 29	 Name: VIJAYAPURA
-Cases: 1002	 Backlog: 1002
+Cases: 1002	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
+7	201.0	17	KALABURGI
+43	103.0	29	VIJAYAPURA
+71	698.0	17	KALABURGI
