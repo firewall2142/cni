@@ -1,6 +1,7 @@
 District ID: 27	 Name: UDUPI
-Cases: 1600	 Backlog: 0
+Cases: 1635	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-33	911.0	27	UDUPI
-58	689.0	27	UDUPI
+57	65	27	UDUPI
+58	878	27	UDUPI
+33	692	27	UDUPI

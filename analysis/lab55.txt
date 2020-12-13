@@ -1,8 +1,8 @@
 Lab ID: 55	District: 30 - YADGIRI
-capacity: 172 = 180-8
-total samples collected = 228.0
-Overload = 56.0
+capacity: 132 = 180-48
+total samples collected = 132
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-30	YADGIRI	228.0
+30	YADGIRI	132

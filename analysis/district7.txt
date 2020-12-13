@@ -1,7 +1,6 @@
 District ID: 7	 Name: CHAMARAJANAGARA
-Cases: 752	 Backlog: 0
+Cases: 786	 Backlog: 16
 LabID	Samples	DistID	DistName
 -----------------------------------------
-18	188.0	7	CHAMARAJANAGARA
-61	194.0	7	CHAMARAJANAGARA
-69	370.0	18	KODAGU
+18	597	7	CHAMARAJANAGARA
+61	173	7	CHAMARAJANAGARA

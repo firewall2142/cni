@@ -6,10 +6,11 @@ from functools import reduce
 from math import sin, cos, pi, asin, acos, sqrt, atan2
 import sys
 
+def parse_cmd(soln_file,lab_file='./test1/lab_test_data.csv',district_file='./test1/district_test_data.csv'):
+    return soln_file, lab_file, district_file
+
 outputfolder = 'analysis'
-soln_file = sys.argv[1]
-lab_file = f'./test1/lab_test_data.csv'
-district_file = f'./test1/district_test_data.csv'
+soln_file,lab_file,district_file = parse_cmd(*sys.argv[1:])
 
 
 if len(sys.argv) > 1:

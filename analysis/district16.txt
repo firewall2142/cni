@@ -1,6 +1,5 @@
 District ID: 16	 Name: HAVERI
-Cases: 862	 Backlog: 0
+Cases: 878	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-30	158.0	12	DAVANAGERE
-80	704.0	16	HAVERI
+80	878	16	HAVERI

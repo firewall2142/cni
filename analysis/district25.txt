@@ -1,8 +1,8 @@
 District ID: 25	 Name: SHIMOGA
-Cases: 2668	 Backlog: 0
+Cases: 2739	 Backlog: 326
 LabID	Samples	DistID	DistName
 -----------------------------------------
-6	413.0	25	SHIMOGA
-11	1257.0	13	DHARWAD
-19	947.0	25	SHIMOGA
-76	51.0	13	DHARWAD
+6	702	25	SHIMOGA
+19	930	25	SHIMOGA
+38	536	12	DAVANAGERE
+30	245	12	DAVANAGERE

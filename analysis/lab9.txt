@@ -1,9 +1,8 @@
 Lab ID: 9	District: 3 - BELLARY
-capacity: 1953 = 2000-47
-total samples collected = 1972.0
-Overload = 19.0
+capacity: 901 = 2000-1099
+total samples collected = 901
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-3	BELLARY	1710.0
-23	RAICHUR	262.0
+3	BELLARY	901

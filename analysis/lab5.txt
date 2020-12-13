@@ -1,9 +1,8 @@
 Lab ID: 5	District: 15 - HASSAN
-capacity: 1318 = 2500-1182
-total samples collected = 1418.0
-Overload = 100.0
+capacity: 2203 = 2500-297
+total samples collected = 2203
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-9	CHIKKAMAGALUR	1240.0
-15	HASSAN	178.0
+15	HASSAN	2203

@@ -1,6 +1,6 @@
 District ID: 30	 Name: YADGIRI
-Cases: 803	 Backlog: 0
+Cases: 864	 Backlog: 14
 LabID	Samples	DistID	DistName
 -----------------------------------------
-55	228.0	30	YADGIRI
-56	575.0	30	YADGIRI
+55	132	30	YADGIRI
+56	718	30	YADGIRI

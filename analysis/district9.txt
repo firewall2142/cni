@@ -1,6 +1,7 @@
 District ID: 9	 Name: CHIKKAMAGALUR
-Cases: 1471	 Backlog: 0
+Cases: 1372	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-5	1240.0	15	HASSAN
-54	231.0	9	CHIKKAMAGALUR
+54	163	9	CHIKKAMAGALUR
+37	839	11	DAKSHIN KANNADA
+86	370	11	DAKSHIN KANNADA

@@ -1,6 +1,6 @@
 District ID: 24	 Name: RAMANAGARA
-Cases: 778	 Backlog: 0
+Cases: 743	 Backlog: 198
 LabID	Samples	DistID	DistName
 -----------------------------------------
-62	199.0	24	RAMANAGARA
-63	579.0	24	RAMANAGARA
+62	97	24	RAMANAGARA
+63	448	24	RAMANAGARA

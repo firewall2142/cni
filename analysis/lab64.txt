@@ -1,8 +1,8 @@
 Lab ID: 64	District: 23 - RAICHUR
-capacity: 518 = 1000-482
-total samples collected = 618.0
-Overload = 100.0
+capacity: 585 = 1000-415
+total samples collected = 585
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-23	RAICHUR	618.0
+23	RAICHUR	585

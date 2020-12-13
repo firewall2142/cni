@@ -1,6 +1,6 @@
 District ID: 26	 Name: TUMKUR
-Cases: 2092	 Backlog: 0
+Cases: 2064	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-7	1834.0	17	KALABURGI
-41	258.0	26	TUMKUR
+41	696	26	TUMKUR
+65	1368	6	BIDAR

@@ -1,8 +1,8 @@
 Lab ID: 46	District: 28 - UTTARA KANNADA 
-capacity: 593 = 1000-407
-total samples collected = 693.0
-Overload = 100.0
+capacity: 624 = 1000-376
+total samples collected = 624
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-28	UTTARA KANNADA 	693.0
+28	UTTARA KANNADA 	624

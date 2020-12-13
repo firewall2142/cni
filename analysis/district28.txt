@@ -1,8 +1,5 @@
 District ID: 28	 Name: UTTARA KANNADA 
-Cases: 1404	 Backlog: 0
+Cases: 1336	 Backlog: 712
 LabID	Samples	DistID	DistName
 -----------------------------------------
-42	586.0	2	BELAGAVI
-46	693.0	28	UTTARA KANNADA 
-48	112.0	2	BELAGAVI
-81	13.0	2	BELAGAVI
+46	624	28	UTTARA KANNADA 

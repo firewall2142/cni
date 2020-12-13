@@ -1,8 +1,8 @@
 Lab ID: 34	District: 11 - DAKSHIN KANNADA
-capacity: 294 = 750-456
-total samples collected = 294.0
-Overload = 0.0
+capacity: 532 = 750-218
+total samples collected = 532
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-11	DAKSHIN KANNADA	294.0
+11	DAKSHIN KANNADA	532

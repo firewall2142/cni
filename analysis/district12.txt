@@ -1,6 +1,6 @@
 District ID: 12	 Name: DAVANAGERE
-Cases: 1415	 Backlog: 0
+Cases: 1406	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-38	854.0	12	DAVANAGERE
-78	561.0	12	DAVANAGERE
+78	1256	12	DAVANAGERE
+30	150	12	DAVANAGERE

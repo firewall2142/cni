@@ -1,8 +1,8 @@
 Lab ID: 58	District: 27 - UDUPI
-capacity: 643 = 1000-357
-total samples collected = 689.0
-Overload = 46.0
+capacity: 878 = 1000-122
+total samples collected = 878
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-27	UDUPI	689.0
+27	UDUPI	878

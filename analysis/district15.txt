@@ -1,7 +1,5 @@
 District ID: 15	 Name: HASSAN
-Cases: 2363	 Backlog: 0
+Cases: 2421	 Backlog: 218
 LabID	Samples	DistID	DistName
 -----------------------------------------
-5	178.0	15	HASSAN
-33	2129.0	27	UDUPI
-57	56.0	27	UDUPI
+5	2203	15	HASSAN

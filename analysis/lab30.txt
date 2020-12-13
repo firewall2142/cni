@@ -1,9 +1,9 @@
 Lab ID: 30	District: 12 - DAVANAGERE
-capacity: 303 = 750-447
-total samples collected = 303.0
-Overload = 0.0
+capacity: 395 = 750-355
+total samples collected = 395
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-10	CHITRADURGA	145.0
-16	HAVERI	158.0
+12	DAVANAGERE	150
+25	SHIMOGA	245

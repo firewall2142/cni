@@ -1,9 +1,10 @@
 Lab ID: 65	District: 6 - BIDAR
-capacity: 1445 = 3000-1555
-total samples collected = 1445.0
-Overload = 0.0
+capacity: 2069 = 3000-931
+total samples collected = 2069
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-6	BIDAR	545.0
-17	KALABURGI	900.0
+6	BIDAR	531
+26	TUMKUR	1368
+21	MANDYA	170

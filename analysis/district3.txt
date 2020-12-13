@@ -1,5 +1,6 @@
 District ID: 3	 Name: BELLARY
-Cases: 1710	 Backlog: 0
+Cases: 1645	 Backlog: 706
 LabID	Samples	DistID	DistName
 -----------------------------------------
-9	1710.0	3	BELLARY
+9	901	3	BELLARY
+80	38	16	HAVERI

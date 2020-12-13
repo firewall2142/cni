@@ -1,10 +1,9 @@
 Lab ID: 7	District: 17 - KALABURGI
-capacity: 2606 = 3000-394
-total samples collected = 2606.0
-Overload = 0.0
+capacity: 1612 = 3000-1388
+total samples collected = 1612
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-17	KALABURGI	571.0
-26	TUMKUR	1834.0
-29	VIJAYAPURA	201.0
+17	KALABURGI	1527
+29	VIJAYAPURA	85

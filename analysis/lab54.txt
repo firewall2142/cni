@@ -1,8 +1,8 @@
 Lab ID: 54	District: 9 - CHIKKAMAGALUR
-capacity: 131 = 180-49
-total samples collected = 231.0
-Overload = 100.0
+capacity: 163 = 180-17
+total samples collected = 163
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-9	CHIKKAMAGALUR	231.0
+9	CHIKKAMAGALUR	163

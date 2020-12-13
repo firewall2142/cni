@@ -1,9 +1,8 @@
 Lab ID: 69	District: 18 - KODAGU
-capacity: 983 = 1000-17
-total samples collected = 983.0
-Overload = 0.0
+capacity: 417 = 1000-583
+total samples collected = 417
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-7	CHAMARAJANAGARA	370.0
-18	KODAGU	613.0
+18	KODAGU	417

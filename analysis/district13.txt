@@ -1,6 +1,6 @@
 District ID: 13	 Name: DHARWAD
-Cases: 1989	 Backlog: 0
+Cases: 1959	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-13	1967.0	13	DHARWAD
-76	22.0	13	DHARWAD
+11	1203	13	DHARWAD
+13	756	13	DHARWAD

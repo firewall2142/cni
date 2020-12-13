@@ -1,8 +1,8 @@
 Lab ID: 37	District: 11 - DAKSHIN KANNADA
-capacity: 425 = 1000-575
-total samples collected = 432.0
-Overload = 7.0
+capacity: 839 = 1000-161
+total samples collected = 839
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-11	DAKSHIN KANNADA	432.0
+9	CHIKKAMAGALUR	839

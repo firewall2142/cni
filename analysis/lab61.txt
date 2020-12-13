@@ -1,8 +1,8 @@
 Lab ID: 61	District: 7 - CHAMARAJANAGARA
-capacity: 111 = 180-69
-total samples collected = 194.0
-Overload = 83.0
+capacity: 173 = 180-7
+total samples collected = 173
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-7	CHAMARAJANAGARA	194.0
+7	CHAMARAJANAGARA	173

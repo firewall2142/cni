@@ -1,8 +1,8 @@
 Lab ID: 6	District: 25 - SHIMOGA
-capacity: 393 = 1000-607
-total samples collected = 413.0
-Overload = 20.0
+capacity: 702 = 1000-298
+total samples collected = 702
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-25	SHIMOGA	413.0
+25	SHIMOGA	702

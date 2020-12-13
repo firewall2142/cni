@@ -1,9 +1,8 @@
 Lab ID: 41	District: 26 - TUMKUR
-capacity: 939 = 1000-61
-total samples collected = 939.0
-Overload = 0.0
+capacity: 696 = 1000-304
+total samples collected = 696
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-19	KOLAR	681.0
-26	TUMKUR	258.0
+26	TUMKUR	696

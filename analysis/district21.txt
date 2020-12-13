@@ -1,7 +1,7 @@
 District ID: 21	 Name: MANDYA
-Cases: 1859	 Backlog: 0
+Cases: 1898	 Backlog: 606
 LabID	Samples	DistID	DistName
 -----------------------------------------
-17	554.0	21	MANDYA
-18	540.0	7	CHAMARAJANAGARA
-84	765.0	21	MANDYA
+17	395	21	MANDYA
+84	727	21	MANDYA
+65	170	6	BIDAR

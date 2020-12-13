@@ -1,7 +1,6 @@
 District ID: 10	 Name: CHITRADURGA
-Cases: 1003	 Backlog: 0
+Cases: 1049	 Backlog: 723
 LabID	Samples	DistID	DistName
 -----------------------------------------
-30	145.0	12	DAVANAGERE
-59	226.0	10	CHITRADURGA
-78	632.0	12	DAVANAGERE
+59	121	10	CHITRADURGA
+79	205	19	KOLAR

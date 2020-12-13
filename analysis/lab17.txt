@@ -1,8 +1,8 @@
 Lab ID: 17	District: 21 - MANDYA
-capacity: 454 = 1000-546
-total samples collected = 554.0
-Overload = 100.0
+capacity: 395 = 1000-605
+total samples collected = 395
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-21	MANDYA	554.0
+21	MANDYA	395

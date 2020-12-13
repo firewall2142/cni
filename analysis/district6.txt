@@ -1,5 +1,5 @@
 District ID: 6	 Name: BIDAR
-Cases: 545	 Backlog: 0
+Cases: 531	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-65	545.0	6	BIDAR
+65	531	6	BIDAR

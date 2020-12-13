@@ -1,8 +1,8 @@
 Lab ID: 14	District: 2 - BELAGAVI
-capacity: 1691 = 2000-309
-total samples collected = 1791.0
-Overload = 100.0
+capacity: 1020 = 2000-980
+total samples collected = 1020
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-2	BELAGAVI	1791.0
+2	BELAGAVI	1020

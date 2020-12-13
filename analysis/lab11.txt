@@ -1,8 +1,8 @@
 Lab ID: 11	District: 13 - DHARWAD
-capacity: 1257 = 1500-243
-total samples collected = 1257.0
-Overload = 0.0
+capacity: 1203 = 1500-297
+total samples collected = 1203
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-25	SHIMOGA	1257.0
+13	DHARWAD	1203

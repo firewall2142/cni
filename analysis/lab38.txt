@@ -1,8 +1,8 @@
 Lab ID: 38	District: 12 - DAVANAGERE
-capacity: 854 = 1000-146
-total samples collected = 854.0
-Overload = 0.0
+capacity: 536 = 1000-464
+total samples collected = 536
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-12	DAVANAGERE	854.0
+25	SHIMOGA	536

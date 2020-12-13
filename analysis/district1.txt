@@ -1,6 +1,6 @@
 District ID: 1	 Name: BAGALKOT
-Cases: 1139	 Backlog: 0
+Cases: 1214	 Backlog: 610
 LabID	Samples	DistID	DistName
 -----------------------------------------
-44	255.0	1	BAGALKOT
-45	884.0	1	BAGALKOT
+44	149	1	BAGALKOT
+45	455	1	BAGALKOT

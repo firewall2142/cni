@@ -1,6 +1,8 @@
 District ID: 2	 Name: BELAGAVI
-Cases: 2144	 Backlog: 0
+Cases: 2055	 Backlog: 29
 LabID	Samples	DistID	DistName
 -----------------------------------------
-14	1791.0	2	BELAGAVI
-42	353.0	2	BELAGAVI
+14	1020	2	BELAGAVI
+42	826	2	BELAGAVI
+48	79	2	BELAGAVI
+81	101	2	BELAGAVI

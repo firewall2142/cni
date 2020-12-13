@@ -1,8 +1,8 @@
 Lab ID: 44	District: 1 - BAGALKOT
-capacity: 155 = 180-25
-total samples collected = 255.0
-Overload = 100.0
+capacity: 149 = 180-31
+total samples collected = 149
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-1	BAGALKOT	255.0
+1	BAGALKOT	149

@@ -55,10 +55,11 @@ def lab_capacity_accounted(df_labs,df_solution):
         #print("lab_id: ", lab_id, ".lab_district_id", lab_district_id, ". lab_capacity: ",lab_capacity,". outside_district_allocated: ", outside_district_allocated,". total_allocated",total_allocated)
         if(outside_district_allocated > lab_capacity):
             valid = False
-            if(DEBUG_PRINTS) : print("outside_district_allocated exceeds capacity")
+            print("outside_district_allocated exceeds capacity", lab_id)
         if(total_allocated > lab_capacity+LAB_EXCESS_CAPACITY):
             valid = False
-            if(DEBUG_PRINTS) : print("Total allocation more than capacity +",LAB_EXCESS_CAPACITY)
+            print("Total allocation more than capacity +",LAB_EXCESS_CAPACITY)
+            print("Lab id=", lab_id)
     print("Lab allocation constraints :", valid)
 
     return valid
@@ -102,13 +103,14 @@ def outside_district_lab_distances(df_labs,df_solution):
 
         valid = valid and labs_within_radius(outside_district_transfer_lab_locations)
 
-        print("checking for district: ", district_id)
-        print("outer transfers : ", outside_district_transfer_labs)
         if labs_within_radius(outside_district_transfer_lab_locations):
-            print("OK")
+            # print("OK")
+            pass
         else:
+            print("checking for district: ", district_id)
+            print("outer transfers : ", outside_district_transfer_labs)
             print("FAIL  <" + '-'*30)
-        print('\n')
+            print('\n')
         
     print("outside_district_lab_distances : ",valid)
     return valid
@@ -134,20 +136,18 @@ def evaluate(lab_info_filename,district_info_filename,solution_filename):
 
 
 if __name__ == '__main__':
-    print("RESULT =", evaluate('./test1/lab_test_data.csv','./test1/district_test_data.csv', sys.argv[1]))
+    # print("RESULT =", evaluate('./test1/lab_test_data.csv','./test1/district_test_data.csv', sys.argv[1]))
 
-    # exit()
+    input_dir = 'sample_files_002/'
+    lab_file_prefix = 'lab_sample_data_'
+    district_file_prefix='district_sample_data_'
+    solution_file_prefix = 'solution_'
 
-    # input_dir = 'test_files/'
-    # lab_file_prefix = 'lab_test_data_'
-    # district_file_prefix='district_test_data_'
-    # solution_file_prefix = 'solution_'
-
-    # for count in range(1,6):
-    #     lab_input_filename=input_dir+lab_file_prefix+ "%03d" % count +".csv"
-    #     district_input_filename = input_dir+district_file_prefix+ "%03d" % count +".csv"
-    #     solution_filename = input_dir+solution_file_prefix+ "%03d" % count +".csv"
+    for count in range(1,6):
+        lab_input_filename=input_dir+lab_file_prefix+ "%03d" % count +".csv"
+        district_input_filename = input_dir+district_file_prefix+ "%03d" % count +".csv"
+        solution_filename = input_dir+solution_file_prefix+ "%03d" % count +".csv"
         
 
-    #     valid_allocation = evaluate(lab_input_filename,district_input_filename,solution_filename)
-    #     print(solution_filename , ": Constraints Met : ", valid_allocation)
+        valid_allocation = evaluate(lab_input_filename,district_input_filename,solution_filename)
+        print(solution_filename , ": Constraints Met : ", valid_allocation)

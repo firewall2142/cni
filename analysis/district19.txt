@@ -1,8 +1,7 @@
 District ID: 19	 Name: KOLAR
-Cases: 1109	 Backlog: 0
+Cases: 1098	 Backlog: 0
 LabID	Samples	DistID	DistName
 -----------------------------------------
-41	681.0	26	TUMKUR
-66	100.0	19	KOLAR
-67	228.0	19	KOLAR
-79	100.0	19	KOLAR
+66	58	19	KOLAR
+67	665	19	KOLAR
+79	375	19	KOLAR

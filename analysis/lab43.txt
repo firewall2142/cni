@@ -1,8 +1,8 @@
 Lab ID: 43	District: 29 - VIJAYAPURA
-capacity: 103 = 180-77
-total samples collected = 103.0
-Overload = 0.0
+capacity: 25 = 180-155
+total samples collected = 25
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-29	VIJAYAPURA	103.0
+29	VIJAYAPURA	25

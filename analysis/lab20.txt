@@ -1,9 +1,8 @@
 Lab ID: 20	District: 14 - GADAG
-capacity: 711 = 750-39
-total samples collected = 811.0
-Overload = 100.0
+capacity: 319 = 750-431
+total samples collected = 319
+Overload = 0
 
 DistID	DistName	Samples
 ------------------------------------------
-14	GADAG	779.0
-20	KOPPAL	32.0
+14	GADAG	319
