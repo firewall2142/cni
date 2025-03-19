@@ -1,8 +1,12 @@
-#### Allocation Algorithm
+
+## Presentation
+[![Presentation](https://img.youtube.com/vi/RgtaJ8IN9L0/0.jpg)](https://www.youtube.com/watch?v=RgtaJ8IN9L0)
+
+## Allocation Algorithm
 
 Each day, the information about the number of swabs originating in a district along with location and capacities of labs across the state are provided. An allocation of swabs from collection centers (district collection centers) to testing labs needs to be generated keeping in account the following constraints and cost considerations.
 
-#### Allocation Costs
+## Allocation Costs
 
 The following are the cost and logistics constraints that need to be considered while generating the allocations:
 
@@ -12,7 +16,7 @@ The following are the cost and logistics constraints that need to be considered 
 4.  Labs in the same district can be overloaded up to a maximum of 100 samples (over and above a lab's max capacity) for swabs from the same district. Each such overloaded sample will cost Rs 5000 per sample.
 5.  Penalty for keeping samples at district headquarters as backlog is Rs 10,000 per sample.
 
-#### Allocation Constraints
+## Allocation Constraints
 
 1.  Sum of allocated swabs to a lab shall not exceed the lab's available capacity for the day (capacity -- backlog), except under the condition given in constraint 2.
 2.  A district can overload labs in its same district, up to a maximum of 100 excess swabs per lab. The cost of every such excess swab is given in point 4 of the section on allocation costs.
