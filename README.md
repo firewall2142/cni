@@ -1,5 +1,5 @@
 
-## Presentation
+## Presentation Video
 [![Presentation](https://img.youtube.com/vi/RgtaJ8IN9L0/0.jpg)](https://www.youtube.com/watch?v=RgtaJ8IN9L0)
 
 ## Allocation Algorithm
@@ -21,3 +21,5 @@ The following are the cost and logistics constraints that need to be considered 
 1.  Sum of allocated swabs to a lab shall not exceed the lab's available capacity for the day (capacity -- backlog), except under the condition given in constraint 2.
 2.  A district can overload labs in its same district, up to a maximum of 100 excess swabs per lab. The cost of every such excess swab is given in point 4 of the section on allocation costs.
 3.  Allocation of swabs to labs outside of the source district should be such that the maximum distance between any two such labs should be less than 40km.
+
+See [CNI's IISc page](https://cni.iisc.ac.in/hackathons/CNI-Swabs2Labs-Hackathon-2020/) for more information
